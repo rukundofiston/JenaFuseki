@@ -1,0 +1,312 @@
+/*============================
+ style globe
+============================*/
+.body{
+   background-color:#F9F9F9;
+} 
+.bottom-weight{
+    width: 76%;
+}
+.top-width{
+    width: 76%;
+}
+
+
+
+/*========================
+ page top
+========================*/
+
+#logo {
+    padding: 30px 0px 10px 0;
+}
+#search {
+    padding: 80px 10px 10px 0;
+    
+}
+
+#small-icon {
+    padding: 70px 0 10px 0;
+}
+#body {
+    background-color: #F9F9F9;
+}
+/*======================
+img index
+======================*/
+.thumbnail{
+    margin-right:1%;
+}
+.index-img{
+    width: 90%;
+    height: 150px;
+    margin-top: 10px
+}
+
+/*========================
+ page bottom
+========================*/
+.block-bottom{
+    
+    background-color:#999999;
+    color: #FFFFFF;
+    padding-top: 10px;
+    opacity:0.6;
+} 
+
+/*========================
+ displayCommentaire
+========================*/
+/*.navbar-my {
+    min-height: 30px!important;
+    height: 30px!important;
+    margin-bottom: 1px!important
+   
+}
+.navbar-mybrand{
+   
+    padding: 5px 15px !important;
+    font-size: 16px !important;
+   
+}*/
+    
+/*==================================
+ pour les pages login et register
+==================================*/
+#loginbg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/img-bg.jpg);
+    background-size:cover;
+}
+#login {
+    padding: 15% 0px 0px 0px;
+    text-align: right;
+}
+
+#loginbg #login h1 {
+    padding: 10% 10% 0px 0px;
+    color: #E8E8E8;
+    line-height: 1.1em;
+    font-size: 50px;
+}
+
+#loginbg #login form {
+    padding: 10% 0 0px 0px;
+
+}
+
+#registerbg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/img-bg.jpg);
+    background-size:cover;
+}
+#register {
+    padding: 15% 0px 50% 0px;
+    text-align: right;
+}
+
+#registerbg #register h1 {
+    padding: 10% 10% 0px 0px;
+    color: #E8E8E8;
+    line-height: 1.1em;
+    font-size: 50px;
+}
+/*=================
+    pour botton
+=================*/
+.btn {
+    color: #fff;
+    background-color: #2E6DA4;
+    transition: all .3s ease-in-out;
+
+}
+.btn:hover{
+    color: #c0c0c0 !important;
+}
+
+/*========================
+ pour panier 
+========================*/
+/*.table>thead>tr>th{
+    padding: 8px 70px !important;
+    line-height: 1.42857143;
+}*/
+
+.panier {
+    width: 100%;
+    margin-right: 0;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.panier-th{
+    padding:0 60px !important; 
+}
+
+.circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px; 
+    background-color: #b92c28
+}
+/*=====================
+ page generation
+=====================*/
+
+.tab-top{
+    padding-top: 20px;
+}
+#myTab,#myTabContent{
+    padding: 10px 0% 0px 0px;
+}
+#myTabContent label{
+
+    color: #245580;
+}
+.title-align-left{
+    text-align:left !important;
+}
+.outil{
+    width:56px;
+}
+
+
+#pub{
+    padding: 20px 0 20px 0;
+    width: 74%;
+}
+#produit{
+    display: inline-block;
+    max-width: auto;
+    height: 300px;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+}
+
+/*===================================
+pour page search resultat
+===================================*/
+.middle-column-home {
+    width: 78%;
+    margin-right: 0;
+    padding: 5px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.left-column {
+    width: 20%;
+    margin-right: 0;
+    padding: 5px 1%;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.border{
+    margin-bottom:5px;
+    border: 1px solid  #E8E8E8;
+    border-radius: 4px; 
+
+}
+
+#checkbox label{
+    width: 100%;
+
+}
+
+#checkbox{
+    padding-left:10px;
+    padding-top:10px;
+}
+.col{
+    margin-right: 1%;
+    float: left;
+}
+
+
+/*================================
+ override css de primeFace
+================================*/
+.ui-datalist-content {
+
+}
+.ui-widget-content {
+    border: 0px!important;
+
+}
+
+.ui-paginator {
+    text-align: left!important;
+}
+
+
+.ui-widget-header {
+    border:0px!important;
+    background: #fff !important;
+}
+
+.ui-datalist-data{
+    padding: 0 0 0 0!important; 
+}
+
+.ui-state-default {
+    background:  #fff!important;
+    /* color: #28a4c9!important; */
+}
+
+.ui-state-active{
+    color: #337ab7!important;
+
+}
+
+.ui-paginator-rpp-label{
+    padding-left: 40%;
+}
+
+.ui-inputfield, .ui-widget-content .ui-inputfield, .ui-widget-header .ui-inputfield {
+    background: #ffffff;
+    -moz-box-shadow: inset 0 2px 2px #eaeaea !important;
+    -webkit-box-shadow: inset 0 2px 2px #eaeaea !important;
+    box-shadow: inset 0 2px 2px #ffffff;
+    color: #313131;
+}
+
+.ui-datatable thead th{
+
+    border-top-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style: solid !important;
+    border-left-style: none !important;
+
+}
+
+.ui-datatable table{
+
+    border-width: 1px !important;
+    border-color: #afd9ee !important;
+    border-style: solid !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{
+    background: #ddd;
+}
+
+.ui-datatable-tablewrapper{
+    padding-top: 10px !important;
+}
+
+.ui-datatable tbody td, .ui-datatable tfoot td {
+
+    border-style: none !important;
+}
